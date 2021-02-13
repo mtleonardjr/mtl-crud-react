@@ -77,6 +77,28 @@
   justify-content: center;
   flex: 1;
   padding: 0px 20px;
+  margin: 0px 20px;
+  background-color: gray;
+}
+
+.search-label {
+  text-align: center;
+  font-size: x-large;
+}
+
+.add-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex: 1;
+  padding: 0px 20px;
+  margin: 0px 20px;
+  background-color: gray;
+}
+
+.search-label {
+  text-align: center;
+  font-size: x-large;
 }
 
 .column-1 {
