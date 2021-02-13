@@ -1,0 +1,98 @@
+* {
+  border: 2px solid black;
+}
+
+.app {
+  height: 95vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  min-height: 200px;
+}
+
+.banner {
+  min-height: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-body {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.about-container {
+  min-height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 20px;
+  flex: 1;
+}
+
+.about {
+  flex-grow: 1;
+  width: 100%;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  flex: 1;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 100%;
+}
+
+.column-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex: 1;
+}
+
+.column-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex: 1;
+}
+
+.column-item {
+  margin: 10px;
+  text-align: center;
+}
+
+.footer {
+  min-height: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-item {
+  margin: 10px;
+}
