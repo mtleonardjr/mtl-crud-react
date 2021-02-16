@@ -5,7 +5,7 @@ const CollapsedComponent = ({ onAdd, title }) => {
           <div className='label-collapsed-invs'></div>
           <label className='label-collapsed'>{title}</label>
           <div className='expand' >
-            <button onClick={onAdd}>+</button>
+            <button className='btn' onClick={onAdd}>+</button>
           </div>
         </div>
       </div>

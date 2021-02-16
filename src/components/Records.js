@@ -8,7 +8,7 @@ const Records = ({ onAdd }) => {
             <div className='label-collapsed-invs'></div>
             <label className='label-collapsed'>Records</label>
             <div className='expand' >
-              <button onClick={onAdd}>x</button>
+              <button className='btn' onClick={onAdd}>x</button>
             </div>
           </div>
           <div className="card-records">
