@@ -10,7 +10,7 @@ const Search = ({ onAdd }) => {
             </div>
           </div>
 
-          <input type='text' className='text-input'></input>
+          <input type='text' placeholder='Search by Title'className='text-input'></input>
           <input className='btn-submit' type='submit'></input>
         </form>
       </div>

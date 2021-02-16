@@ -9,8 +9,8 @@ const Add = ({ onAdd }) => {
               <button className='btn' onClick={onAdd}>x</button>
             </div>
           </div>
-          <input type='text' className='text-input'></input>
-          <input type='text' className='text-input'></input>
+          <input type='text' placeholder='Add a New Title...' className='text-input'></input>
+          <input type='text' placeholder='Add a New Note...'className='text-input'></input>
           <input className='btn-submit'type='submit'></input>
         </form>
       </div>
