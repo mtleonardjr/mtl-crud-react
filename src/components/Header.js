@@ -1,8 +1,8 @@
 const Header = () => {
     return (
       <div className="header">
-        <div>
-          Header
+        <div className="header-item"> 
+          Create, read, update and delete notes in this full-stack note taking application!
         </div>
       </div>
     )
