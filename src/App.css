@@ -15,7 +15,6 @@ a:hover {
   flex-direction: column;
   justify-content: flex-start;
   height: 100vh;
-
   background-color: rgb(214, 231, 247);
 }
 
@@ -103,6 +102,7 @@ a:hover {
   flex-direction: row;
   flex-wrap: wrap;
   align-self: space-around;
+  background-color: rgb(214, 231, 247);
 }
 
 .column {
@@ -226,7 +226,6 @@ a:hover {
   border-radius: 5px;
   height: 30px;
   background-color: rgb(214, 231, 247);
-  align-self: center;
 }
 
 .footer {
