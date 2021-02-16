@@ -1,3 +1,4 @@
+import { useState, useEffect } from 'react'
 import './App.css';
 import {
   BrowserRouter as Router,
@@ -12,22 +13,25 @@ import Columns from './components/Columns'
 import Footer from './components/Footer'
 import About from './components/About'
 
+
 function App() {
+  const [showSearch, setShowSearch] = useState(false)
+
+
+
+
   return (
     <Router>
       <div className='app-container'>
         <Banner />
-        <div className="app">
+        <Header />
+        <Navbar />
           <div className="main-body">
-            <Header />
-            <Navbar />
             <Switch>
               <Route exact path='/'><Columns /></Route>
               <Route path='/about'><About /></Route>
             </Switch>
           </div>
-
-        </div>
         <Footer />
       </div>
     </Router>
